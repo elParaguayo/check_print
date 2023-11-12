@@ -11,7 +11,7 @@ Add this to your `.pre-commit-config.yaml`
 
 ```yaml
 -   repo: https://github.com/elParaguayo/check_print
-    rev: ''  # Use the sha / tag you want to point at
+    rev: v0.1.0
     hooks:
-    -   id: check_print
+    -   id: check-print-statements
 ```
