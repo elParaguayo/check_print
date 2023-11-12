@@ -1,0 +1,6 @@
+-   id: check-print-statements
+    name: check-print-statements
+    description: This hook highlights, but does not remove, print statements
+    entry: check_print
+    language: python
+    types: [python]

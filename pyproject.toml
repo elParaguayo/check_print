@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "check_print"
+authors = [
+    {name = "elParaguayo", email = "elparaguayocode@gmail.com"},
+]
+description = "Pre-commit hook to check for rogue print statements"
+readme = "README.rst"
+requires-python = ">=3.7"
+keywords = ["pre-commit"]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["version"]
+
+[project.scripts]
+check_print = "check_print.main:main"
